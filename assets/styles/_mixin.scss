@@ -1,0 +1,24 @@
+@mixin container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+@mixin d__flex {
+    display: flex;
+    align-items: center;
+}
+
+@mixin d__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+@mixin bg-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
